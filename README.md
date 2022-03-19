@@ -10,5 +10,7 @@ To use PID controller, there must be a feedback and close loop system, in this p
 
 * D (differential) accounts for possible future trends of the error, based on its current rate of change.
 
+## MPU 6050 Connections
+![image](https://user-images.githubusercontent.com/55800601/159141126-01f0b7cb-250f-4395-9bc5-6a82780e0657.png)
 
 
