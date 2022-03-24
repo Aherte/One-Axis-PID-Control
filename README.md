@@ -9,10 +9,14 @@ To use PID controller, there must be a feedback and close loop system, in this p
 * I (integral) accounts for all past values of the error. For example, if the current output is not sufficiently strong, the integral of the error will accumulate over time, and the controller will respond by applying a stronger action.
 
 * D (differential) accounts for possible future trends of the error, based on its current rate of change.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Arduino can freezes because i2c communication timeout did not defined by default in Wire library which is a core library of Arduino. So, we have to set timeout variables with manually or in the code. I prefered to do it manually with changing variables in the below photo.
 
+![Ekran görüntüsü 2022-03-24 165102](https://user-images.githubusercontent.com/55800601/159930960-bd361b6f-2c3d-47e6-a046-3ab28171de8a.png)
+
+  
 ## MPU 6050 Connections
 ![image](https://user-images.githubusercontent.com/55800601/159141126-01f0b7cb-250f-4395-9bc5-6a82780e0657.png)
-
 
 ![giphy](https://user-images.githubusercontent.com/55800601/159183971-532ffe2c-9aaa-44e9-a01d-d124bd19affa.gif)
 
