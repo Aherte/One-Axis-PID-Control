@@ -7,7 +7,7 @@ MPU6050 mpu;
 #define INTERRUPT_PIN 2
 #define IMU_COMMUNICATION_TIMEOUT 200
 
-// zero point calibration
+// initial point calibration
 #define ACCEL_OFFSET_X -531
 #define ACCEL_OFFSET_Y 521
 #define ACCEL_OFFSET_Z 384
